@@ -46,3 +46,17 @@ git rm --cached [file]
 
 ### 改名文件，并且将这个改名放入暂存区
 git mv [file-original] [file-renamed]
+
+## 代码提交
+
+### 提交暂存区到仓库区
+git commit -m [message]
+
+### 提交暂存区指定文件到仓库区
+git commit [file1] [file2] ... -m [message]
+
+### 省略‘git add’操作，直接提交到仓库区，只对修改和删除文件有效
+git commit -a
+
+### 使用一次新的commit，替代上一次提交
+git commit --amend -m [message]
