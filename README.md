@@ -129,7 +129,7 @@ git push [remote] --all
 
 ## 撤销
 ### 恢复暂存区的指定文件到工作区
-$ git checkout [file]
+git checkout [file]
 
 # 恢复某个commit的指定文件到暂存区和工作区
 $ git checkout [commit] [file]
